@@ -1,1 +1,1 @@
-# ksncs.o.github.io
+# scnsk.github.io
