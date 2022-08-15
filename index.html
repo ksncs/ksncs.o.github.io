@@ -1,13 +1,18 @@
 <html>
 <head>
-  <title>入力フォーム</title>
-  </head>
-  <body>
-<form action="/form.php" method="post">
+<title>入力フォーム</title>
+</head>
+<body>
+<form>
 <div>
-<label for="name">名前</label>
-<input type="text" id="name" name="name">
-</div>
-    </form>
-  </body>
-  </html>
+  メールアドレスを入力
+  <input type="email" name="mail">
+  </div>
+  <div>
+    パスワードを入力
+    <input type="password" name="password">
+  </div>
+  <input type="submit" value="送信">
+</form>
+</body>
+</html>
